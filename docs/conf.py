@@ -43,15 +43,15 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Read the Docs Template'
-copyright = u'2014, Read the Docs'
+project = u'Faster-LMM-D'
+copyright = u'2016 - 2018, Prasun Anand and Pjotr Prins'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
 #
 # The short X.Y version.
-version = '1.0'
+version = '0.1'
 # The full version, including alpha/beta/rc tags.
 release = '1.0'
 
@@ -176,7 +176,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'ReadtheDocsTemplatedoc'
+htmlhelp_basename = 'faster_lmm_d-doc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -196,8 +196,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'ReadtheDocsTemplate.tex', u'Read the Docs Template Documentation',
-   u'Read the Docs', 'manual'),
+  ('index', 'faster_lmm_d.tex', u'Faster-LMM-D Documentation',
+   u'Prasun Anand, Pjotr Prins', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -226,8 +226,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'readthedocstemplate', u'Read the Docs Template Documentation',
-     [u'Read the Docs'], 1)
+    ('index', 'Faster-LMM-D', u'Faster-LMM-D Documentation',
+     [u'Prasun Anand, Pjotr Prins'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -240,8 +240,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'ReadtheDocsTemplate', u'Read the Docs Template Documentation',
-   u'Read the Docs', 'ReadtheDocsTemplate', 'One line description of project.',
+  ('index', 'Faster-LMM-D', u'Faster-LMM-D Documentation',
+   u'Prasun Anand, Pjotr Prins', 'Faster-LMM-D', 'Faster-LMM-D is a GWAS tool with GPU acceleration.',
    'Miscellaneous'),
 ]
 
