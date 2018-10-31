@@ -1,33 +1,36 @@
-Template
+Faster-LMM-D
 ========
 
-$project will solve your problem of where to start with documentation,
-by providing a basic explanation of how to do it easily.
+A faster lmm for GWAS. It has multi-core and GPU support.
 
-Look how easy it is to use:
+Usage:
 
-    import project
-    # Get your stuff done
-    project.do_stuff()
+    ./faster_lmm_d --control=data/genenetwork/BXD.json --pheno=data/genenetwork/104617_at.json --geno=data/genenetwork/BXD.csv --cmd=rqtl
 
 Features
 --------
 
-- Be awesome
-- Make things faster
+- LD Pruning
+- Kinship Calculation
+- Linear Regression
+- Logistic Regression
+- Linear Mixed Models
+- Multivariate Linear Mixed Models (WIP)
+- Supports CUDA/OpenCL and Multi-core CPUs
 
 Installation
 ------------
 
-Install $project by running:
+Install faster_lmm_d by running:
 
-    install project
+    git clone https://github.com/genetics-statistics/faster_lmm_d
+    make CUDA=1
 
 Contribute
 ----------
 
-- Issue Tracker: github.com/$project/$project/issues
-- Source Code: github.com/$project/$project
+- Issue Tracker: github.com/genetics-statistics/faster_lmm_d/issues
+- Source Code: github.com/genetics-statistics/faster_lmm_d
 
 Support
 -------
@@ -38,4 +41,4 @@ We have a mailing list located at: project@google-groups.com
 License
 -------
 
-The project is licensed under the BSD license.
+This software is distributed under the GPL3 license.
